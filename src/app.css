@@ -1,0 +1,24 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #555;
+}
+
+footer a {
+  margin: 0 0.5rem;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
