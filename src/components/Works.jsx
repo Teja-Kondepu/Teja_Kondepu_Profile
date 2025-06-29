@@ -35,7 +35,7 @@ const works = [
     title: "Task Pro Manager",
     desc: "This project shows the schedules for User.",
     img: "https://cdn.dribbble.com/userupload/14567647/file/original-7f88cbe1f51ff62baf4d496898fde442.png?format=webp&resize=400x300&vertical=center",
-    link: "https://task-pro-manager.vercel.app/"
+    link: "https://task-pro-manager-flame.vercel.app/"
   }
 ];
 

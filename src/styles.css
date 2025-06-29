@@ -552,3 +552,36 @@ textarea {
   animation: buttonBounce 2s ease-in-out infinite;
 }
 */
+.skills-slider {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: slideLeftRight 40s linear infinite;
+  /* Ensure enough width for infinite effect */
+}
+
+.skills-grid .skills-card {
+  min-width: 250px; /* or your preferred width */
+}
+
+.skills-grid.devops-row {
+  animation: slideRightLeft 35s linear infinite;
+  margin-top: 1.5rem;
+}
+
+@keyframes slideLeftRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes slideRightLeft {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

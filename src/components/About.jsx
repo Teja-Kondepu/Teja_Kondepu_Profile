@@ -7,20 +7,15 @@ const About = () => (
       <div className="profile-img">
         <img
           src={profile}
-          alt="Teja Kondepu"
+          alt="Kondepu Teja Venkatesh"
         />
       </div>
       <div className="about-text">
         <h2 className="section-title">About Me</h2>
         <p>
-          I'm a Full Stack Developer with 3 years of experience in building
-          scalable web applications. I specialize in JavaScript technologies
-          across the entire stack and have a passion for creating elegant
-          solutions to complex problems.
+          To contribute to a dynamic organization that fosters continuous learning and innovation in emerging technologies, leveraging my skills in software development, DevOps, problem-solving, and AI/ML, while collaborating with dynamic teams to build scalable and impactful solutions.
         </p>
-        <p>
-          Currently I'm pursuing my BTech at RGUKT Srikakulam in CSE and I am interested in website creation.
-        </p>
+        
       </div>
     </div>
   </section>
